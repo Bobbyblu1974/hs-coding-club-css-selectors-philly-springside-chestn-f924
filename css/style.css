@@ -2,11 +2,13 @@ html {
   background: url(../images/beach.jpg) no-repeat top center;
 }
 
-img {
-  position: relative;
-  z-index: 11;
-  cursor: pointer;
+img #ruby
+  position: absolute;
+  z-index: 1;
+  top: 315px;
+  left: 175px;
 }
+
 
 .wrapper {
   position: relative;
@@ -21,7 +23,7 @@ img {
   height: 514px;
 }
 
-#wheelbarrow { 
+#wheelbarrow {
   position: relative;
   background: url(../images/treasure-chest-background.png) no-repeat;
   z-index: 0;
